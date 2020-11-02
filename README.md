@@ -97,3 +97,5 @@ Decreased number of epochs to 10.
     Performance measures show significant improvement after adding more convolutional layers. Early stopping occured after epoch 37.
 
 I decided to use this last model as the Final Model.
+
+>**Note**: for details see *traffic_notebook_models.ipynb* or *traffic_notebook_models.html*
