@@ -69,7 +69,7 @@ def load_data(data_dir):
         for filename in files:
             img_path = os.path.join(root, filename)
             # get label
-            label = int(os.path.basename(root)) + 1
+            label = int(os.path.basename(root))
             # load image
             img = cv2.imread(img_path, cv2.IMREAD_COLOR)
             # resize image
